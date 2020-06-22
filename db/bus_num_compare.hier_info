@@ -1,0 +1,22 @@
+|bus_num_compare
+clk => temp.CLK
+x => ~NO_FANOUT~
+input_1[0] => Equal0.IN7
+input_1[1] => Equal0.IN6
+input_1[2] => Equal0.IN5
+input_1[3] => Equal0.IN4
+input_2[0] => Equal1.IN7
+input_2[1] => Equal1.IN6
+input_2[2] => Equal1.IN5
+input_2[3] => Equal1.IN4
+input_3[0] => Equal2.IN7
+input_3[1] => Equal2.IN6
+input_3[2] => Equal2.IN5
+input_3[3] => Equal2.IN4
+input_4[0] => Equal3.IN7
+input_4[1] => Equal3.IN6
+input_4[2] => Equal3.IN5
+input_4[3] => Equal3.IN4
+out_put <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+
